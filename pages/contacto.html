@@ -18,47 +18,82 @@
     <header class="row text-center"><!--COMIENZO HEADER-->
         <div class="col">
             <div class="fondoOscuro">
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/pages/contacto.html">Menu</a></li>
-            </ul>
+                <div class="menu">
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
-    <main>
-        <div class="row">
-            <div class="col"></div>
-        </div>
+    <main><!--COMIENZO MAIN-->
         <div class="caja1">
             <div class="row">
-                <form class="col-6 fuenteTexto">
-                    <h2 class="fuenteTitulo">Contactanos</h2>
-                        <div class="mb-3">
-                            <label for="contactoid" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="contactoid" aria-describedby="emailHelp">
+                <div class="row margen"><!--GRILLA DENTRO DE OTRA GRILLA-->
+                    <form class="col-sm-12 col-md-6"><!--COMIENZO FORMULARIO-->
+                        <h2 class="fuenteTitulo">Contactanos</h2>
+                        <label for="contactoid" class="form-label"><p class="fuenteTexto">Nombre</p></label>
+                        <input type="text" class="form-control formulario" id="contactoid" aria-describedby="emailHelp">
+                        <label for="emailid" class="form-label"><p class="fuenteTexto">Email</p></label>
+                        <input type="email" class="form-control formulario" id="emailid" aria-describedby="emailHelp">
+                        <label for="contactoid" class="form-label"><p class="fuenteTexto">Descripcion</p></label>
+                        <input type="area" class="form-control formulario area" id="contactoid" aria-describedby="emailHelp">
+                        <button type="submit" class="btn boton">enviar </button>
+                    </form><!--FIN FORMULARIO-->
+                    <div class="col-sm-12 col-md-6 align-self-center text-center">
+                        <div class="row ">
+                            <div class="col-sm-6">
+                                <div class="caja4">
+                                    <h2 class="fuenteTitulo3">Sucursal 1</h2>
+                                    <ul>
+                                        <li class="fuenteTexto">25 de Mayo 456</li>
+                                        <li class="fuenteTexto">4315512</li>
+                                        <li class="fuenteTexto">+54 (381) 4339874</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="caja4">
+                                    <h2 class="fuenteTitulo3">Sucursal 2</h2>
+                                    <ul>
+                                        <li class="fuenteTexto">Chacabuco 985</li>
+                                        <li class="fuenteTexto">4662184</li>
+                                        <li class="fuenteTexto">+54 (381) 4234458</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="caja4">
+                                    <h2 class="fuenteTitulo3">Sucursal 3</h2>
+                                    <ul>
+                                        <li class="fuenteTexto">San Martín 440</li>
+                                        <li class="fuenteTexto">4325678</li>
+                                        <li class="fuenteTexto">+54 (381) 5669863</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="caja4">
+                                    <h2 class="fuenteTitulo3">Sucursal 4</h2>
+                                    <ul>
+                                        <li class="fuenteTexto">Lavalle 345</li>
+                                        <li class="fuenteTexto">4975411</li>
+                                        <li class="fuenteTexto">+54 (381) 6348801</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="emailid" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="emailid" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="contactoid" class="form-label">Descripcion</label>
-                            <input type="area" class="form-control" id="contactoid" aria-describedby="emailHelp">
-                        </div>
-                        <button type="submit" class="btn btn-warning">enviar </button>
-                </form>
-                <div class="col-3 align-self-center">
-                        <h2 class="fuenteTitulo3">Local 1</h2>
-                        <p class="fuenteTexto">direccion local 1</p>
-                </div>
-                <div class="col-3 align-self-center">
-                        <h2 class="fuenteTitulo3">Local 2</h2>
-                        <p class="fuenteTexto">direccion local 2</p>
+                    </div>
+                </div><!--FIN GRILLA DENTRO DE OTRA GRILLA-->
+                <div class="row">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.4732315011915!2d-65.20578738545134!3d-26.824896696007176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c176e3f0249%3A0x75f854470bf1d69d!2s25%20de%20Mayo%20456%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1661406503951!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
-        
-    </main>
+    </main><!--FIN MAIN-->
     <footer class="row"><!--COMIENZA FOOTER-->
         <div class="col text-center">
             <div class="fondoOscuro">
