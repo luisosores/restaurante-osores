@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: miFuente1;
+    src: url(/fonts/Metropolis\ 1920.otf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: miFuente2;
+    src: url(/fonts/CaviarDreams_Bold.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: miFuente3;
+    src: url(/fonts/Josefin\ Sans\ Std\ Regular.ttf);
+    font-weight: 300;
+}
+.nav{
+    height: 50px;
+    width: auto;
+    display: none;
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul li a{
+    display: block; 
+    text-decoration: none;
+    color: #c5c7c8;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+ul li a:hover{
+    color: #c9ab81;
+}
+.prueba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fuenteTitulo{
+    font-family: 'metropolis-1920-regular', sans-serif;
+    color: #c9ab81;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: "miFuente2";
+}
+.fuenteTitulo2{
+    font-family: 'metropolis-1920-regular', sans-serif;
+    color: #c9ab81;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: "mifuente1";
+}
+.fuenteTitulo3{
+    font-family: 'metropolis-1920-regular', sans-serif;
+    color: #c9ab81;
+    font-size: 15px;
+    letter-spacing: 10px;
+    font-family: "mifuente1";
+}
+.fuenteTexto{
+    font-family: 'josefin-sans-std-regular', sans-serif;
+    color: #e8dad9;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-family: "miFuente3";
+}
+.prueba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.caja1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0b1315;
+}
+.caja2{
+    background-color: #0f1d22;
+}
+.caja3{
+    width: 50%;
+}
+.header{
+    height: 100px;
+}
+.fondoOscuro{
+    background-color: #000000;
+    color:#c5c5c5;
+    padding: 10px;
+}
